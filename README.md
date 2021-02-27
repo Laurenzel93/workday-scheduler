@@ -1,6 +1,6 @@
 # Workday-Scheduler
 
-https://github.com/Laurenzel93/workday-scheduler
+https://github.com/Laurenzel93/workday-scheduler <br>
 https://laurenzel93.github.io/workday-scheduler/
 
 I needed to use the [Moment.js](https://momentjs.com/) library to work with date and time.
@@ -10,7 +10,6 @@ I needed to use the [Moment.js](https://momentjs.com/) library to work with date
 AS AN employee with a busy schedule
 I WANT to add important events to a daily planner
 SO THAT I can manage my time effectively
-```
 
 ## Acceptance Criteria
 
@@ -27,3 +26,4 @@ WHEN I click the save button for that timeblock
 THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
+```
