@@ -69,3 +69,8 @@ textarea{
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+
+.jumbotron {
+    background-color: cornflowerblue;
+    font-family: 'Lucida Sans';
+}
