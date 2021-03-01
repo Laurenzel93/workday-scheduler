@@ -3,7 +3,7 @@
 https://github.com/Laurenzel93/workday-scheduler <br>
 https://laurenzel93.github.io/workday-scheduler/
 
-I needed to use the [Moment.js](https://momentjs.com/) library to work with date and time.
+I used the [Moment.js](https://momentjs.com/) library to work with date and time.
 
 ## User Story
 
