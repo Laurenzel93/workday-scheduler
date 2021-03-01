@@ -7,7 +7,7 @@ console.log(time);
 // function to change the color of each box based on the current time
 function style() {
     var currentTime = moment().hours();
-    for (let x = 8; x < 17; x++) {
+    for (let x = 8; x <= 17; x++) {
         let hour = $("#" + x);
 
         if (x < currentTime) {
@@ -22,13 +22,12 @@ function style() {
             hour.removeClass("future");
         }
 
-        else (x > currentTime) {
+        else {
             hour.removeClass("past");
             hour.removeClass("present");
             hour.addClass("future");
-        }
+        } 
     }
 }
-
 
 style();
