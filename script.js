@@ -1,3 +1,4 @@
+
 // this adds the current time to the jumbotron
 let time = moment().format('LLL');
 $("#currentDay").text(time);
@@ -35,3 +36,12 @@ function style() {
 
 // calling the function
 style();
+
+//saves To-Do input data in box1 (8AM) to local storage
+let toDoInput = document.getElementById("text1").value;
+localStorage.setItem("toDoInput", input);
+
+// Retrieves To Do data input by user
+document.getElementById("text1").value = localStorage.getItem("text1");
+
+// need to save data to local storage through save button...hmmm...
