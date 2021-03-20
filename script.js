@@ -1,6 +1,6 @@
 
 // this adds the current time to the jumbotron
-let time = moment().format('LLL');
+let time = moment().format('L');
 $("#currentDay").text(time);
 console.log(time);
 
